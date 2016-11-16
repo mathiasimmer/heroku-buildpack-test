@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Usage:
+#
+#     $ bin/compile <build-dir> <cache-dir> <env-path>
+
+
+echo "Runing compile..."
+
+echo "Installing cmake"
+apt-get update
+apt-get install cmake
